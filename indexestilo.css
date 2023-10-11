@@ -12,7 +12,7 @@ body{
     flex-direction: column;
     align-items: center;
     
-    background-image: url(fotos/fondo.jpg);
+    background-image: url(fotos/fondo2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -21,7 +21,7 @@ body{
 .encabezado{
     width: 100%;
     height: 10vh;
-    background-color:rgb(33, 138, 168) ;
+    background-color:rgb(255, 255, 255) ;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -49,22 +49,26 @@ body{
 
 
 .encPag{
+    font-size: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
     gap:10px;
+    margin-top: 15px;
     margin-right: 10px;
 }
 
 .encizq{
     margin-left: 10px;
+    display: flex;
+    justify-content: left;
 }
 
 .final{
     width: 100%;
     font-size:small;
-    background-color: #1F1E27;
+    background-color: #2babba;
     display: flex;
     flex-direction: row;
     justify-content: center;
