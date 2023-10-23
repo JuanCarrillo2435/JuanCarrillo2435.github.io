@@ -1,0 +1,32 @@
+body{
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom:100px ;
+    
+}
+
+.encabezado{
+    width: 100%;
+    height: 10vh;
+    background-color:rgb(20, 253, 12) ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.encizq{
+    margin-left: 10px;
+    display: flex;
+    justify-content: left;
+}
+
+.encPag{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap:20px;
+    margin-right: 10px;
+}

@@ -6,25 +6,21 @@
   }*/
 
 body{
+    background-color: white;
     width: 100%;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-    background-image: url(fotos/fondo2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    position: relative;
+    padding-bottom:100px ;
 }
 
 .encabezado{
     width: 100%;
     height: 10vh;
-    background-color:rgb(20, 253, 12) ;
+    background-image: url(fotos/header.jpg);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
 }
 
 
@@ -54,7 +50,7 @@ body{
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    gap:10px;
+    gap:20px;
     margin-right: 10px;
 }
 
@@ -71,5 +67,23 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: end;
-    margin-top: 72px;
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+.grandiv{
+    background-image: url(fotos/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.texto{
+    font-size: 18pt;
+}
+
+.titulos{
+    font-size: 30pt;
 }
