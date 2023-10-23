@@ -4,15 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactenos</title>
+    <link rel="stylesheet" type="text/css" href="p2estilo.css">
 </head>
 <body>
     <header class = "encabezado">
+
         <div class = "encPag">
+            <a href ="pagina1.html">Plaqueteria</a>
             <a href ="index.html">Inicio</a>
-            <a href ="pagina2.html">Contacto</a>
         </div>
     </header>
 
+    <form class="formularioContacto" id="formContacto">
+        <label for="nombre">Nombre <span class="obligatorio">*</span> </label>
+        <input type="text" name="nombre" placeholder="Nombre">
+
+        <label for="apellido">Apellido <span class="obligatorio">*</span> </label>
+        <input type="text" name="apellido"  placeholder="Apellido">
+
+        <label for="mail"> Email <span class="obligatorio">*</span> </label>
+        <input type="text" name="mail" placeholder="Email">
+
+        <label for="telefono"> Teléfono <span class="obligatorio">*</span></label>
+        <input type="tel" name="telefono" placeholder="Telefono">
+
+        <label for="mensaje"> Mensaje <span class="obligatorio">*</span> </label>
+        <textarea name="mensaje" placeholder="Dejanos tu mensaje..."></textarea>
+       
+        <p id="error"></p>
+        <p id="enviado"></p>
+        <div class="divEnviar">
+
+            <button type="submit" name="enviarDatosContacto">Enviar</button>
+        </div>
+
+        <p>Los campos con <span class="obligatorio">*</span> son obligatorios.</p>
+    </form>
 
 
     <script src ="form.js"></script>
