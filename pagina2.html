@@ -15,27 +15,27 @@
         </div>
     </header>
 
-    <form class="formularioContacto" id="formContacto">
+    <form id="formContacto">
         <label for="nombre">Nombre <span class="obligatorio">*</span> </label>
-        <input type="text" name="nombre" placeholder="Nombre">
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre">
 
         <label for="apellido">Apellido <span class="obligatorio">*</span> </label>
-        <input type="text" name="apellido"  placeholder="Apellido">
+        <input type="text" name="apellido" id="apellido" placeholder="Apellido">
 
         <label for="mail"> Email <span class="obligatorio">*</span> </label>
-        <input type="text" name="mail" placeholder="Email">
+        <input type="text" name="mail" id="mail" placeholder="Email">
 
         <label for="telefono"> Teléfono <span class="obligatorio">*</span></label>
-        <input type="tel" name="telefono" placeholder="Telefono">
+        <input type="tel" name="telefono" id="telefono" placeholder="Telefono">
 
         <label for="mensaje"> Mensaje <span class="obligatorio">*</span> </label>
-        <textarea name="mensaje" placeholder="Dejanos tu mensaje..."></textarea>
+        <textarea name="mensaje" id="mensaje" placeholder="Dejanos tu mensaje..."></textarea>
        
         <p id="error"></p>
         <p id="enviado"></p>
         <div class="divEnviar">
-
-            <button type="submit" name="enviarDatosContacto">Enviar</button>
+            
+            <button type="submit" name="enviarDatosContacto" id="enviar">Enviar</button>
         </div>
 
         <p>Los campos con <span class="obligatorio">*</span> son obligatorios.</p>

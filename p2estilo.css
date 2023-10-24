@@ -1,8 +1,6 @@
 body{
     width: 100%;
-    min-height: 100vh;
-    padding-bottom:100px ;
-    
+    padding-bottom:100px ;    
 }
 
 .encabezado{
@@ -13,12 +11,6 @@ body{
     flex-direction: row;
     justify-content: right;
 
-}
-
-.encizq{
-    margin-left: 10px;
-    display: flex;
-    justify-content: left;
 }
 
 .encPag{
@@ -34,3 +26,4 @@ body{
 .obligatorio{
     color: red ;
 }
+
