@@ -15,7 +15,21 @@
         </div>
     </header>
 
-    <form id="formContacto">
+
+    <div class="divGrande">
+
+        <div>
+            <h3>CONTACTO: 264-467-4618 </h3>
+            <br>
+            <h3>polosurefrigeracion68@gmail.com</h3>
+            <br>
+            <h3>Avenida Alem 1240 Sur (Capital -San Juan)</h3>
+            <br>
+            <iframe src="https://www.google.com/maps/embed?pb=!4v1698258631474!6m8!1m7!1sAi-b5BFXqGS-iiPK_nqiSg!2m2!1d-31.54964193833591!2d-68.5275699830924!3f60.77!4f-5.959999999999994!5f1.6432617752512604" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div>
+    <form id="formContacto" class = "formulario">
         <label for="nombre">Nombre <span class="obligatorio">*</span> </label>
         <input type="text" name="nombre" id="nombre" placeholder="Nombre">
 
@@ -28,18 +42,25 @@
         <label for="telefono"> Teléfono <span class="obligatorio">*</span></label>
         <input type="tel" name="telefono" id="telefono" placeholder="Telefono">
 
-        <label for="mensaje"> Mensaje <span class="obligatorio">*</span> </label>
-        <textarea name="mensaje" id="mensaje" placeholder="Dejanos tu mensaje..."></textarea>
+        <label for="mensaje" > Mensaje <span class="obligatorio">*</span> </label>
+        <textarea  name="mensaje" class="text" id="mensaje" placeholder="Dejanos tu mensaje..."></textarea>
        
         <p id="error"></p>
         <p id="enviado"></p>
         <div class="divEnviar">
             
             <button type="submit" name="enviarDatosContacto" id="enviar">Enviar</button>
+            <p id="mostrarpersona"></p>
         </div>
 
         <p>Los campos con <span class="obligatorio">*</span> son obligatorios.</p>
     </form>
+    
+
+</div>
+
+</div>
+
 
 
     <script src ="form.js"></script>

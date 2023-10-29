@@ -2,7 +2,10 @@ document.addEventListener("DOMContentLoaded", function() {
     const imagen = document.getElementById("imagen");
     const anteriorBtn = document.getElementById("anterior");
     const siguienteBtn = document.getElementById("siguiente");
-    const imagenes = ["fotos/carrusel1.jpeg", "fotos/carrusel2.jpeg", "fotos/carrusel3.jpeg","fotos/carruseltv.jpeg"];
+    const imagenes = ["fotos/antes/antes1.jpeg","fotos/despues/despues1.jpeg", "fotos/antes/antes2.jpeg","fotos/despues/despues2.jpeg", 
+    "fotos/antes/antes3.jpeg","fotos/despues/despues3.jpeg",
+    "fotos/antes/antes4.jpeg","fotos/despues/despues4.jpeg"];
+    
     let indiceActual = 0;
 
     function cambiarImagen(direccion) {

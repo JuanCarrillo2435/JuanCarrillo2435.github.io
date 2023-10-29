@@ -26,12 +26,22 @@ formulario.addEventListener("submit",function(evento){
         return;
     } else if(!mensaje.value){
         mostarError("Debe escribir un mensaje");
+    }else if (mensaje.value.length > 100) {
+        mostarError("El mensaje no puede tener más de 100 caracteres");
     } else {
-        error.innerHTML = "";
-        enviado.innerHTML = nombre.value+" "+apellido.value+" tu mensaje se ha enviado exitosamente: '"+mensaje.value+".'";
+        
+        const persona = document.createElement("p");
+        persona.id = "persona";
+        persona.textContent = nombre.value+" "+apellido.value+" tu mensaje se ha enviado exitosamente: '"+mensaje.value+".'";
+        const mostarPersona = document.getElementById("mostrarpersona");
+        const lleno = document.getElementById("persona");
+        if (lleno) {
+            mostrarpersona.removeChild(lleno);
+        }
+
+        mostarPersona.appendChild(persona);
         limpiar();
     }
-
 
 
     function mostarError(e1) {
