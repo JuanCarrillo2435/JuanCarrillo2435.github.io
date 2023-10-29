@@ -1,7 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    }
 
 body{
     background-image: url("fotos/fondoaa.jpg");
@@ -20,16 +16,6 @@ body{
 
 }
 
-.encPag{
-    font-size: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    gap:20px;
-    margin-right: 10px;
-}
-
 .obligatorio{
     color: red ;
 }
@@ -45,12 +31,6 @@ form label, form input, form textarea {
     display: block;
     margin-bottom: 10px;
 }
-
-/*.mensaje{
-    width: 100%;
-    height: 200px; 
-*/
-
 
 .formulario{
    width: 20cm;

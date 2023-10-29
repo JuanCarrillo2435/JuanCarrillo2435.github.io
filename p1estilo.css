@@ -1,7 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    }
 
 body{
     width: 100%;
@@ -19,22 +15,6 @@ body{
     flex-direction: row;
     justify-content: space-between;
 
-}
-
-.encizq{
-    margin-left: 10px;
-    display: flex;
-    justify-content: left;
-}
-
-.encPag{
-    font-size: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    gap:20px;
-    margin-right: 10px;
 }
 
 
