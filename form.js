@@ -39,6 +39,7 @@ formulario.addEventListener("submit",function(evento){
             mostrarpersona.removeChild(lleno);
         }
 
+        error.innerHTML = "";
         mostarPersona.appendChild(persona);
         limpiar();
     }
@@ -49,6 +50,7 @@ formulario.addEventListener("submit",function(evento){
         enviado.innerHTML = "";
     }
 
+
     function limpiar() {
         nombre.value = "";
         apellido.value = "";
@@ -58,7 +60,7 @@ formulario.addEventListener("submit",function(evento){
     }
 
     function validarMail(correo){
-        let pat_mail = /^\w+@\w+(\.\w{2,4})+$/;
+        let pat_mail = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
         return pat_mail.test(correo);
     }
 
